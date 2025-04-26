@@ -64,3 +64,44 @@ Virus Simulator/
 ├── venv/               # Virtual environment (not included in GitHub repo)
 ├── requirements.txt    # Project dependencies
 ├── README.md           # This file
+```
+<heading>⚙️ Configurable Parameters</heading>
+  <p>All parameters can be tuned inside <code>server/server.py</code> before starting the simulation.</p>
+  <table>
+    <tr><th>Parameter</th><th>Description</th></tr>
+    <tr><td><code>width</code>, <code>height</code></td><td>Grid size</td></tr>
+    <tr><td><code>initial_agents</code></td><td>Number of agents</td></tr>
+    <tr><td><code>infection_probability</code></td><td>Chance of infection per contact</td></tr>
+    <tr><td><code>recovery_steps</code></td><td>How long infection lasts before recovery or death</td></tr>
+    <tr><td><code>fatality_rate</code></td><td>Chance of death after infection</td></tr>
+    <tr><td><code>immunity_duration</code></td><td>How long immunity lasts after recovery</td></tr>
+    <tr><td><code>enable_mobility</code></td><td>Toggle agent movement</td></tr>
+    <tr><td><code>enable_asymptomatic</code></td><td>Toggle asymptomatic carriers</td></tr>
+    <tr><td><code>vaccination_start_step</code></td><td>When vaccination campaign starts</td></tr>
+    <tr><td><code>vaccination_rate</code></td><td>Portion vaccinated each step</td></tr>
+    <tr><td><code>vaccine_efficacy</code></td><td>Effectiveness of the vaccine</td></tr>
+  </table>
+  <p>✅ Easily simulate different disease types (COVID-19, Influenza, etc.) by adjusting these values.</p>
+</section>
+
+<hr/>
+
+<section>
+  <heading>🙌 Acknowledgements</heading>
+  <ul>
+    <li><a href="https://github.com/projectmesa/mesa">Mesa</a> – Agent-based modeling in Python</li>
+    <li><a href="https://www.tornadoweb.org/">Tornado</a> – WebSocket handling</li>
+  </ul>
+</section>
+
+<hr/>
+
+<section>
+  <heading>📢 Author</heading>
+  <p><strong>Dinakar Murthy</strong></p>
+  <ul>
+    <li>Data Scientist | Simulation Engineer | Python Enthusiast</li>
+    <li>📫 <a href="https://www.linkedin.com/in/dinakar-murthy/">LinkedIn Profile</a></li>
+    <li>🌟 Always excited about AI, Data, and building the future!</li>
+  </ul>
+</section>
