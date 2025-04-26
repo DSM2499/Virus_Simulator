@@ -44,9 +44,9 @@ This project simulates how viruses multiply and spread in a realistic environmen
 
 | Grid Simulation | Population Chart |
 |:---------------:|:----------------:|
-| ![Grid Example](path/to/grid_screenshot.png) | ![Chart Example](path/to/chart_screenshot.png) |
+| ![Grid Example](https://github.com/DSM2499/Virus_Simulator/blob/main/Graph.png) | ![Chart Example](path/to/chart_screenshot.png) |
 
-*(Add your screenshots here!)*
+
 
 ---
 
